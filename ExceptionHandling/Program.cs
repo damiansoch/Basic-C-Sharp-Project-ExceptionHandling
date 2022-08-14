@@ -10,14 +10,8 @@ namespace ExceptionHandling
             try
             {
                 List<int> numbers = new List<int> { 81, 54, 76, 52, 43, 75, 92, 20, 43, 51 };
-                Console.WriteLine("Write the number");
+                Console.WriteLine("Write the whole number");
                 int userInput = Convert.ToInt32(Console.ReadLine());
-
-                //if (userInput == 0)
-                //{
-                //    Console.WriteLine("Can't divide by 0!");
-                //    return;
-                //}
 
                 foreach (int number in numbers)
                 {
